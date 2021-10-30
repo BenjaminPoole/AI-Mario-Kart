@@ -7,7 +7,8 @@ To play this download the repo and move AI Mario Kart.ini to ```%USERPROFILE%\Do
 ### Controlling the AI
 You can then play with the AI by moving the dolphin window so that it fits inside the window from AI_player (screen capture) the AI will then view your gameplay and attempt to steer for you. Press the ```m``` key to start the AI (it will control your mouse to steer), ```c``` to stop and ```q``` to quit.
 
+Note that gameplay requires Windows due to AI_player requiring the ```pydirectinput``` library to simulate hardware imput (to circumvent directX anti-cheat) that only works on Windows sadly. You can still build and train the dataset though on other operating systems but AI_player is Windows only. 
+
 ## Training on custom dataset
 Data_collection v4.3.py is used to build a dataset and CNN_Training v5.5.ipynb is used to train and export a model using your dataset. You can then use AI_player to play mario kart using your trained model.
 
-Note that gameplay requires Windows due to AI_player requiring the ```pydirectinput``` library that only works on Windows sadly. You can still build and train the dataset though on other operating systems but AI_player is Windows only. 
