@@ -1,5 +1,6 @@
 # AI-Mario-Kart
-A Convolutional Neural Network that will be able to play Mario Kart Wii. This project is currently in development
+A Convolutional Neural Network that can drive Mario Kart Wii by moving the mouse pointer horizontally to control the steering angle.
 
-So far I've completed data collection by writing a program that can log keystrokes and record a dolphin window. At the moment I'm working on pre-processing data for the Convolutional Neural Network that will drive Mario.
+Data_collection v4.3.py is used to build a dataset and CNN_Training v5.5.ipynb is used to train and export a model using your dataset. You can then use AI_player to play mario kart using your trained model.
 
+This repo comes with a pre-trained model in the /models directory, to use just download the repo and run AI_player
