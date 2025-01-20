@@ -1,5 +1,5 @@
 # AI-Mario-Kart
-A Convolutional Neural Network that can drive Mario Kart Wii on Dolphin by moving the mouse pointer horizontally to control the steering angle.
+A Convolutional Neural Network that can drive Mario Kart Wii on Dolphin by moving the mouse pointer horizontally to control the steering angle. This project was done as a "learning excercise" back in 2021 when I was learning about self driving cars and CNNs. It can steer round a track but often steers wrong and gets stuck, as is typical with Imitation Learning methods "going out of distribution" like this one
 
 ## Gamplay on pre-trained model
 To play this download the repo and move AI Mario Kart.ini to ```%USERPROFILE%\Documents\Dolphin Emulator\Config\Profiles\Wiimote``` Then run AI_Player, it will find the pre-trained model in the /models directory. Launch Dolphin with the game at native resolution
